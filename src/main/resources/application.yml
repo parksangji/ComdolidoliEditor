@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring :
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url : jdbc:mariadb://127.0.0.1:3306/
+    username: root
+    password: 1234
+  jpa :
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        format_sql: true
+    show-sql: false
+custom:
+  message: "WELCOME TO COMDOLIDOL-i SPRING BOOT Editor Dev"

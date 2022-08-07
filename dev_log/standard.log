@@ -1,0 +1,810 @@
+12:54:20.816 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 30980 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+12:54:20.864 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+12:54:20.865 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+12:54:21.081 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:54:21.083 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:54:27.242 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:54:27.277 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+12:54:27.278 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:54:27.279 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+12:54:27.734 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:54:27.735 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6650 ms
+12:54:28.944 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+12:54:29.625 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+12:54:29.956 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:54:30.036 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+12:54:30.137 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:54:30.199 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Started ComdolidoliEditorApplication in 11.783 seconds (JVM running for 14.009)
+12:54:30.208 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+12:54:30.209 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - WELCOME TO COMDOLIDOL-i SPRING BOOT Editor Dev
+12:54:30.209 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+12:54:37.689 {http-nio-8080-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:54:37.691 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:54:37.694 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+12:54:37.775 {http-nio-8080-exec-1} WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'tEst' for method parameter type String is not present]
+12:56:51.193 {http-nio-8080-exec-9} WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'tEst' for method parameter type String is not present]
+12:56:52.495 {http-nio-8080-exec-2} WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'tEst' for method parameter type String is not present]
+12:56:55.589 {http-nio-8080-exec-3} WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'tEst' for method parameter type String is not present]
+12:57:35.047 {http-nio-8080-exec-7} WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'tEst' for method parameter type String is not present]
+12:58:38.120 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 30516 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+12:58:38.123 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+12:58:38.124 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+12:58:38.368 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12:58:38.369 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+12:58:43.474 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12:58:43.499 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+12:58:43.501 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12:58:43.501 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+12:58:43.790 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12:58:43.791 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5417 ms
+12:58:44.476 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+12:58:45.143 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+12:58:45.560 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+12:58:45.695 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+12:58:45.807 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12:58:45.892 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Started ComdolidoliEditorApplication in 9.26 seconds (JVM running for 10.733)
+12:58:45.904 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+12:58:45.914 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - WELCOME TO COMDOLIDOL-i SPRING BOOT Editor Dev
+12:58:45.918 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+12:59:05.631 {http-nio-8080-exec-3} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:59:05.634 {http-nio-8080-exec-3} INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12:59:05.638 {http-nio-8080-exec-3} INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+12:59:05.726 {http-nio-8080-exec-3} WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'tEst' for method parameter type String is not present]
+13:04:03.991 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 30412 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+13:04:03.993 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+13:04:03.994 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+13:04:04.141 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:04:04.142 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:04:08.458 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:04:08.483 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:04:08.484 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:04:08.484 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+13:04:08.780 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:04:08.782 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4637 ms
+13:04:09.529 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+13:04:09.830 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+13:04:10.010 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:04:10.051 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:04:10.114 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:04:10.145 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Started ComdolidoliEditorApplication in 7.636 seconds (JVM running for 9.482)
+13:04:10.153 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:04:10.153 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - WELCOME TO COMDOLIDOL-i SPRING BOOT Editor Dev
+13:04:10.153 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:05:00.443 {http-nio-8080-exec-3} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:05:00.445 {http-nio-8080-exec-3} INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:05:00.448 {http-nio-8080-exec-3} INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+13:05:00.498 {http-nio-8080-exec-3} WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+13:06:30.638 {http-nio-8080-exec-2} WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+13:06:33.429 {http-nio-8080-exec-5} WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+13:06:52.141 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 26992 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+13:06:52.143 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+13:06:52.145 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+13:06:52.286 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:06:52.286 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:06:57.911 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:06:57.955 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:06:57.957 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:06:57.959 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+13:06:58.276 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:06:58.277 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5990 ms
+13:06:59.020 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+13:06:59.326 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+13:06:59.509 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:06:59.544 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:06:59.600 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:06:59.649 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Started ComdolidoliEditorApplication in 9.173 seconds (JVM running for 10.908)
+13:06:59.659 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:06:59.659 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - WELCOME TO COMDOLIDOL-i SPRING BOOT Editor Dev
+13:06:59.660 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:07:39.671 {http-nio-8080-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:07:39.672 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:07:39.676 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+13:07:39.764 {http-nio-8080-exec-1} WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'tEst' for method parameter type String is not present]
+13:10:02.413 {http-nio-8080-exec-5} WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'tEst' for method parameter type String is not present]
+13:11:10.726 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 3472 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+13:11:10.729 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+13:11:10.730 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+13:11:10.870 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:11:10.871 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:11:14.885 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:11:14.914 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:11:14.914 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:11:14.915 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+13:11:15.198 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:11:15.198 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4326 ms
+13:11:16.755 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+13:11:17.152 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+13:11:17.402 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:11:17.446 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:11:17.522 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:11:17.559 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Started ComdolidoliEditorApplication in 8.341 seconds (JVM running for 9.802)
+13:11:17.573 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:11:17.574 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - WELCOME TO COMDOLIDOL-i SPRING BOOT Editor Dev
+13:11:17.575 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:11:20.046 {http-nio-8080-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:11:20.048 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:11:20.051 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+13:11:20.123 {http-nio-8080-exec-1} INFO  c.c.e.controller.EditorController - null
+13:11:20.462 {http-nio-8080-exec-1} ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "": Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1404)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1087)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+13:11:20.467 {http-nio-8080-exec-1} ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1404)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1087)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+13:11:23.510 {http-nio-8080-exec-3} INFO  c.c.e.controller.EditorController - null
+13:11:23.514 {http-nio-8080-exec-3} ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-3] Exception processing template "": Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1404)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1087)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+13:11:23.516 {http-nio-8080-exec-3} ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1404)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1148)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1087)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+13:12:29.391 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 33292 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+13:12:29.393 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+13:12:29.394 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+13:12:29.528 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:12:29.528 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:12:33.328 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:12:33.352 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:12:33.353 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:12:33.354 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+13:12:33.611 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:12:33.611 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4082 ms
+13:12:34.196 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+13:12:34.428 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+13:12:34.594 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:12:34.633 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:12:34.695 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:12:34.720 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Started ComdolidoliEditorApplication in 6.676 seconds (JVM running for 8.075)
+13:12:34.728 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:12:34.728 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - WELCOME TO COMDOLIDOL-i SPRING BOOT Editor Dev
+13:12:34.729 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:12:39.358 {http-nio-8080-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:12:39.360 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:12:39.362 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+13:12:39.451 {http-nio-8080-exec-1} INFO  c.c.e.controller.EditorController - null
+13:13:28.724 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 3156 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+13:13:28.726 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+13:13:28.727 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+13:13:28.864 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:13:28.864 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:13:32.899 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:13:32.929 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:13:32.930 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:13:32.931 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+13:13:33.189 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:13:33.190 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4325 ms
+13:13:33.736 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+13:13:33.951 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+13:13:34.092 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:13:34.121 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:13:34.166 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:13:34.216 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Started ComdolidoliEditorApplication in 6.829 seconds (JVM running for 8.186)
+13:13:34.288 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:13:34.289 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - WELCOME TO COMDOLIDOL-i SPRING BOOT Editor Dev
+13:13:34.289 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:13:36.543 {http-nio-8080-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:13:36.545 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:13:36.551 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+13:19:46.342 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 29192 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+13:19:46.345 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+13:19:46.346 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+13:19:46.493 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+13:19:46.494 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+13:19:52.378 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:19:52.418 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:19:52.419 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:19:52.420 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+13:19:52.766 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:19:52.768 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6270 ms
+13:19:53.732 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+13:19:54.031 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+13:19:54.206 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+13:19:54.262 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:19:54.323 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:19:54.358 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Started ComdolidoliEditorApplication in 9.582 seconds (JVM running for 11.457)
+13:19:54.366 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:19:54.367 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - WELCOME TO COMDOLIDOL-i SPRING BOOT Editor Dev
+13:19:54.367 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+13:19:58.561 {http-nio-8080-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:19:58.563 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:19:58.567 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+15:21:18.763 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 17668 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+15:21:18.767 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+15:21:18.769 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+15:21:18.976 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15:21:18.977 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+15:21:23.937 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:21:23.957 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:21:23.958 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:21:23.959 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+15:21:24.138 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:21:24.138 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5159 ms
+15:21:24.726 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+15:21:25.028 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+15:21:25.233 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+15:21:25.279 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:21:25.294 {restartedMain} WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+15:21:25.306 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+15:21:25.306 {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+15:21:25.340 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+15:21:25.341 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+15:21:25.367 {restartedMain} INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+15:21:25.428 {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:21:26.380 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 25224 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+16:21:26.389 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+16:21:26.393 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+16:21:28.296 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:21:28.298 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:21:40.268 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:21:40.334 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:21:40.336 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:21:40.337 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:21:40.952 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:21:40.953 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12652 ms
+16:21:42.581 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+16:21:43.104 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+16:21:43.457 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:21:43.620 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:21:43.693 {restartedMain} WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+16:21:43.715 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+16:21:43.716 {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:21:43.774 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+16:21:43.781 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+16:21:43.828 {restartedMain} INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:21:43.953 {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:24:31.465 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 26756 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+16:24:31.468 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+16:24:31.469 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+16:24:31.637 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:24:31.638 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:24:35.343 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:24:35.365 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:24:35.366 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:24:35.367 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:24:35.595 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:24:35.596 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3956 ms
+16:24:36.136 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+16:24:36.372 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+16:24:36.528 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:24:36.563 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:24:36.571 {restartedMain} WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+16:24:36.580 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+16:24:36.580 {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:24:36.605 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+16:24:36.606 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+16:24:36.625 {restartedMain} INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:24:36.681 {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:27:12.536 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 34088 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+16:27:12.539 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+16:27:12.540 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+16:27:12.670 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:27:12.671 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:27:16.415 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:27:16.446 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:27:16.447 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:27:16.448 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:27:16.658 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:27:16.659 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3986 ms
+16:27:17.186 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+16:27:17.421 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+16:27:17.550 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:27:17.574 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:27:17.620 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:27:17.640 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Started ComdolidoliEditorApplication in 6.432 seconds (JVM running for 7.785)
+16:27:17.646 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+16:27:17.646 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - WELCOME TO COMDOLIDOL-i SPRING BOOT Editor Dev
+16:27:17.646 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+16:27:26.305 {http-nio-8080-exec-2} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:27:26.307 {http-nio-8080-exec-2} INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:27:26.310 {http-nio-8080-exec-2} INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+16:35:45.164 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 29496 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+16:35:45.167 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+16:35:45.168 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+16:35:45.303 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:35:45.303 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:35:49.210 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:35:49.256 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:35:49.257 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:35:49.258 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:35:49.581 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:35:49.581 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4276 ms
+16:35:50.146 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+16:35:50.368 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+16:35:50.499 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:35:50.529 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:35:50.571 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:35:50.591 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Started ComdolidoliEditorApplication in 6.813 seconds (JVM running for 8.148)
+16:35:50.597 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+16:35:50.597 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - WELCOME TO COMDOLIDOL-i SPRING BOOT Editor Dev
+16:35:50.597 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - ######################################################
+16:35:55.961 {http-nio-8080-exec-1} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:35:55.962 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:35:55.966 {http-nio-8080-exec-1} INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+16:39:37.992 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 16252 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+16:39:37.994 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+16:39:37.996 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+16:39:38.144 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:39:38.145 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:39:42.739 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:39:42.777 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:39:42.778 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:39:42.779 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:39:43.064 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:39:43.064 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4918 ms
+16:39:43.696 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+16:39:43.999 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+16:39:44.177 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:39:44.213 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:39:44.223 {restartedMain} WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+16:39:44.233 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+16:39:44.233 {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:39:44.263 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+16:39:44.264 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+16:39:44.289 {restartedMain} INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:39:44.365 {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:41:24.803 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 13616 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+16:41:24.806 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+16:41:24.807 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+16:41:24.947 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:41:24.948 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:41:28.708 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:41:28.735 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:41:28.736 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:41:28.736 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:41:28.966 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:41:28.967 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4018 ms
+16:41:29.494 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+16:41:29.692 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+16:41:29.829 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:41:29.858 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:41:29.869 {restartedMain} WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+16:41:29.879 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+16:41:29.879 {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:41:29.905 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+16:41:29.907 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+16:41:29.928 {restartedMain} INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:41:29.988 {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:43:43.996 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 31460 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+16:43:43.999 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+16:43:44.000 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+16:43:44.136 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:43:44.136 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:43:48.329 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:43:48.355 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:43:48.356 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:43:48.357 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:43:48.575 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:43:48.576 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4439 ms
+16:43:49.165 {restartedMain} INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+16:43:49.391 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+16:43:49.519 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:43:49.549 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:43:49.560 {restartedMain} WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+16:43:49.569 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+16:43:49.569 {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:43:49.591 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+16:43:49.592 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+16:43:49.612 {restartedMain} INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:43:49.669 {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:44:58.432 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 19980 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+16:44:58.435 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+16:44:58.436 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+16:44:58.580 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:44:58.581 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:45:02.670 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:45:02.692 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:45:02.693 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:45:02.694 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:45:02.921 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:45:02.921 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4339 ms
+16:45:03.773 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+16:45:03.904 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:45:03.932 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:45:03.945 {restartedMain} WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+16:45:03.954 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+16:45:03.954 {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:45:03.978 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+16:45:03.979 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+16:45:03.999 {restartedMain} INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:45:04.063 {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:45:56.171 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 33608 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+16:45:56.174 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+16:45:56.176 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+16:45:56.324 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:45:56.326 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:46:01.197 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:46:01.241 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:46:01.242 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:46:01.243 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:46:01.544 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:46:01.545 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5215 ms
+16:46:02.897 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+16:46:03.130 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:46:03.172 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:46:03.188 {restartedMain} WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+16:46:03.199 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+16:46:03.199 {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:46:03.243 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+16:46:03.244 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+16:46:03.269 {restartedMain} INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:46:03.349 {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:46:11.837 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 6212 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+16:46:11.839 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+16:46:11.840 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+16:46:11.985 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:46:11.986 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:46:16.214 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:46:16.246 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:46:16.247 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:46:16.248 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:46:16.533 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:46:16.534 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4547 ms
+16:46:17.621 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+16:46:17.780 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:46:17.810 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:46:17.821 {restartedMain} WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+16:46:17.831 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+16:46:17.831 {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:46:17.865 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+16:46:17.866 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+16:46:17.887 {restartedMain} INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:46:17.948 {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:46:35.039 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - Starting ComdolidoliEditorApplication using Java 11.0.2 on Sangji with PID 23888 (C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor\target\classes started by parksangji in C:\Users\parks\OneDrive - 한양대학교\바탕 화면\스프링부트\comdolidoli-dev-spring-boot\ComdolidoliEditor)
+16:46:35.043 {restartedMain} DEBUG c.c.e.ComdolidoliEditorApplication - Running with Spring Boot v2.7.2, Spring v5.3.22
+16:46:35.044 {restartedMain} INFO  c.c.e.ComdolidoliEditorApplication - The following 2 profiles are active: "dev", "mariadb"
+16:46:35.269 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:46:35.270 {restartedMain} INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:46:39.388 {restartedMain} INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:46:39.417 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:46:39.418 {restartedMain} INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:46:39.419 {restartedMain} INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+16:46:39.679 {restartedMain} INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:46:39.680 {restartedMain} INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4409 ms
+16:46:40.638 {restartedMain} WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+16:46:40.816 {restartedMain} INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+16:46:40.846 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:46:40.864 {restartedMain} WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+16:46:40.877 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+16:46:40.878 {restartedMain} INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:46:40.907 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+16:46:40.908 {restartedMain} INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+16:46:40.928 {restartedMain} INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:46:40.991 {restartedMain} ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
